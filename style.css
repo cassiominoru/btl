@@ -1,0 +1,21 @@
+/*
+Theme Name: Showbook
+Theme URI: http://www.trustcode.com.br/show-book
+Author: Calango Design, Denis Dib
+Author URI: http://wordpress.org/
+Description: Desenhado por Calango Design, layout html desenvolvido por Denis Dib, adaptado ao wordpress por Trustcode.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: translation-ready
+Text Domain: showbook
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+div.evento .header-evento{
+    margin-top: 20px;
+}
+div.evento .header-evento .imagem-evento img{
+    margin-top: 10px;
+}

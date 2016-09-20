@@ -1,0 +1,67 @@
+------------ Formulário tela inicial ---------------------
+<div class="campo02">
+    <label>Mensagem:</label>[textarea your-message]
+</div>
+
+<div class="campo01">
+   <label>Nome:</label>[text* your-name]
+</div>
+
+<div class="campo01">
+   <label>E-mail:</label>[email* email-563]
+</div>
+
+<div class="campo01">
+   <label>Telefone:</label>[tel* tel-741]
+</div>
+
+<div class="campo01">
+   <label>Assunto:</label>[text your-subject] </p>
+</div>
+
+<div class="campo03">
+    [submit "Enviar"]
+</div>
+
+
+--------------- Faça Parte -------------------------
+<div class="campo01">
+   <label>Nome:</label>[text* your-name]
+</div>
+<div class="campo02">
+   <label>RG:</label>[text your-rg]
+</div>
+<div class="campo02">
+    <label class="cpf">CPF:</label>[text text-cpf class:campo-cpf]
+</div>
+<div class="campo01">
+    <label>Email:</label>[email* email-557]
+</div>
+<div class="campo01">
+    <label>Telefone:</label>[tel tel-811]
+</div>
+<div class="campo01">
+    <label>Endere&ccedil;o:</label>[text text-endereco]
+</div>
+<div class="campo02">
+    <label>Atua&ccedil;&atilde;o:</label>[text text-atuacao]
+</div>
+<div class="campo02">
+    <label>Estilo:</label>[text text-estilo]
+</div>
+<div class="campo01">
+    <label>Site:</label>[url url-site]
+</div>
+<div class="campo01">
+    <label>Facebook:</label>[url url-facebook]
+</div>
+<div class="campo03">
+    <label>Modalidade Escolhida:</label>
+    [radio radio-788 default:1 "X" "Y" "Z"]
+</div>
+<div class="campo03">
+    <p>[acceptance aceito-contrato default:on]Eu li e estou de acordo com o contrato de parceria.</p>
+</div>
+<div class="campo03">
+    [submit class:btn-enviar-2 "QUERO FAZER PARTE!"]
+</div>

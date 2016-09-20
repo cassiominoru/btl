@@ -1,0 +1,1606 @@
+html,body{
+	font-family: 'Ubuntu', sans-serif;
+	background: #E6E6E6;
+}
+
+/*  globais   */
+.alinha{
+	width: 60em;
+	margin: 0em auto;
+	position: relative;
+}
+
+.l1,.l2,.l3,.l4{
+	float: left;
+	width: 100%;
+	min-width: 60em;
+}
+
+/*  menu-topo  */
+.menu-topo{
+	top: 1.625em;
+	left: 0em;
+	position: absolute;
+	width: 100%;
+	height: 6.563em;
+	background: rgba(255, 255, 255, .95) url('../img/bg-menu.png') left bottom repeat-x;
+	border-bottom: 28px solid #9A9098;
+	z-index: 50;
+	}
+	.logo-topo{
+		position: absolute;
+		left: -8em;
+		top: -3.6em;
+		width: 24.688em;
+		height: 18.125em;
+		overflow: hidden;
+		text-indent: -9999px;
+		background: url('../img/logo-topo.png') left top no-repeat;
+		background-size: auto 100%;
+		z-index: 1;
+		-webkit-transition: all .25s ease;
+		   -moz-transition: all .25s ease;
+		    -ms-transition: all .25s ease;
+		     -o-transition: all .25s ease;
+		        transition: all .25s ease;
+	}
+	.menu-topo nav{
+		position: absolute;
+		right: 0em;
+		top: 0em;
+		width: 43.5em;
+		height: 5.625em;
+		overflow: hidden;
+		}
+		.menu-topo li{
+			float: left;
+			}
+			.menu-topo li a{
+				float: left;
+				height: 5.625em;
+				overflow: hidden;
+				text-indent: -9999px;
+				overflow: hidden;
+				color: #FFF;
+				-webkit-transform: scale(1);
+				   -moz-transform: scale(1);
+				    -ms-transform: scale(1);
+				     -o-transform: scale(1);
+				        transform: scale(1);
+					}
+					.menu-topo li a:hover{
+						-webkit-transform: scale(.95);
+						   -moz-transform: scale(.95);
+						    -ms-transform: scale(.95);
+						     -o-transform: scale(.95);
+						        transform: scale(.95);
+					}
+				.menu-topo li a.btn01{
+					width: 8.750em;
+					background: url('../img/btn01.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+				}
+				.menu-topo li a.btn02{
+					width: 10.938em;
+					margin: 0em 0em 0em 0.875em;
+					background: url('../img/btn02.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+				}
+				.menu-topo li a.btn03{
+					width: 9.063em;
+					height: 2.813em;
+					margin: 1.375em 0em 1.375em 0.875em;
+					background: #736971 url('../img/btn03.png') center 0em no-repeat;
+					background-size: auto 100%;
+					border-radius: .5em;
+				}
+				.menu-topo li a.btn04{
+					width: 9.063em;
+					height: 2.813em;
+					margin: 1.375em 0em 1.375em 0.875em;
+					background: #E3E3E3 url('../img/btn04.png') center 0em no-repeat;
+					background-size: auto 100%;
+					border-radius: .5em;
+				}
+				.menu-topo li a.btn05{
+					width: 1.688em;
+					height: 1.688em;
+					margin: 2em 0.25em 2em 0.875em;
+					background: url('../img/btn05.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+				}
+
+/*  menu-interno  */
+.menu-interno{
+	height: 4.375em;
+	border-bottom: 14px solid #9A9098;
+	}
+	.menu-interno nav{
+		width: 42em;
+	}
+	/* .menu-interno .logo-topo{
+		left: -3em;
+		top: -3em;
+		width: 20em;
+		height: 13em;
+	} */
+	.menu-interno nav,
+	.menu-interno li a{
+		height: 4.375em;
+		}
+		.menu-interno li a.btn01,
+		.menu-interno li a.btn02{
+			background-position: 0em -.5em;
+		}
+		.menu-interno li a.btn01{
+			width: 8em;
+		}
+		.menu-interno li a.btn02{
+			width: 10em;
+		}
+		.menu-interno li a.btn03{
+			height: 2.5em;
+			margin: .5em 0em 0em 0.275em;
+		}
+		.menu-interno li a.btn04{
+			height: 2.5em;
+			margin: .5em 0em 0em 1.2em;
+		}
+		.menu-interno li a.btn05{
+			margin: 1em 0.25em 0em 0.875em;
+		}
+
+/*  banners    */
+.l1{
+	min-height: 27.5em;
+	background: #EEE;
+	border-bottom: 15px solid #9A9098;
+	}
+	.banner-principal,
+	.banner-principal ul,
+	.banner-principal li,
+	.banner-principal .foto-banda{
+		float: left;
+		width: 100% !important;
+		min-width: 60em;
+	}
+	#pag{
+		position: absolute;
+		right: .5em;
+		bottom: .86em;
+		z-index: 20;
+		}
+		#pag a{
+			float: left;
+			width: 1.875em;
+			height: 1.875em;
+			background: rgba(255, 255, 255, 0.8);
+			border-radius: .25em;
+			margin-left: .5em;
+			overflow: hidden;
+			text-indent: -9999px;
+			}
+			#pag a:hover{
+				background: #FFF;
+			}
+	.banner-principal{
+		height: 37.5em;
+		position: relative;
+		}
+		.banner-principal ul{
+			height: 37.5em;
+			}
+			.banner-principal li{
+				height: 37.5em !important;
+				position:relative;
+				}
+				/*  Onde a magia acontece  */
+				.banner-principal .tarja-laranja{
+					position: absolute;
+					left: 0em;
+					bottom: 0em;
+					width: 100%;
+					height: 1.875em;
+					background: #D78B13;
+				}
+				.banner-principal .logo-banda{
+					position: absolute;
+					left: .5em;
+					top: 25.50em;
+					width: 10em;
+					height: 10em;
+					padding: 0.625em;
+					background: rgba(255,255,255,.85);
+					border-radius: .5em;
+					z-index:1;
+					}
+					.banner-principal .logo-banda img{
+						width: 100%;
+						height: 100%;
+					}
+				.banner-principal .foto-banda{
+					height: 35.625em !important;
+					overflow: hidden;
+					}
+					.banner-principal .foto-banda img{
+						float: left;
+						width: 100%;
+						height: auto;
+						min-height: 35.625em;
+					}
+
+/*  artistas   */
+.l2{
+	min-height: 39.688em;
+	background: #FFF;
+	}
+	.l2 header{
+		float: left;
+		width: 60em;
+		height: 3.438em;
+		margin: .45em 0em 1.75em 0em;
+		background: url('../img/bg-l2-header.jpg') 0em 0em no-repeat;
+		position: relative;
+		}
+		.l2 header h2{
+			float: left;
+			width: 12.2em;
+			height: 3.125em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: url('../img/titulo-artistas.png') 0em 0em no-repeat;
+			background-size: auto 100%;
+			}
+			.l2 header a{
+				float: left;
+				width: 8.8em;
+				height: 1.838em;
+				padding: 1.6em 0em 0em 2.5em;
+				background: url('../img/btn-l2-header-vertodos.gif') 0em 1.25em no-repeat;
+				color: #ADADB2;
+				font-size: 1em;
+				text-transform: uppercase;
+				}
+				.l2 header a:hover{
+					color: #888;
+					text-shadow:0em 0em .5em rgba(173,173,178,1);
+					text-indent: .5em;
+				}
+		.l2 h3{
+			float: left;
+			width: 18em;
+			line-height: 1.45em;
+			color: #999;
+			background: url('../img/bg-titulo-banda-interno.png') 0em .3em no-repeat;
+			font-family: 'Ubuntu Condensed', sans-serif;
+			font-size: 2.8em;
+			padding-left: 1.1em;
+		}
+
+		/**/
+		.l2 header div.btn-contrate-banda{
+			position: absolute;
+			top: 1.35em;
+			right: -7em;
+			width: 13em;
+			height: 2.813em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: #E3E3E3 url('../img/btn-contrate2.png') center .75em no-repeat;
+			margin-right: 8.75em;
+			border-radius: .5em;
+			cursor: pointer;
+			z-index: 61;
+			-webkit-transition: all .25s ease;
+			   -moz-transition: all .25s ease;
+			    -ms-transition: all .25s ease;
+			     -o-transition: all .25s ease;
+			        transition: all .25s ease;
+			}
+			.l2 header div.btn-contrate-banda:hover{
+				box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.5);
+			}
+			.quero-show{
+				position: absolute;
+				top: 3.25em;
+				right: 1.74em !important;
+				width: 12em;
+				height: 18em;
+				padding: 1.5em .5em 1em;
+				background: #FFF;
+				z-index: 60;
+				border-radius: .5em;
+				box-shadow: 0em 0em 1em rgba(0, 0, 0, .5);
+				display: none;
+				}
+				.quero-show div.btn-dia,
+				.quero-show div.btn-local{
+					float: left;
+					width: 5em;
+					height: 2.5em;
+					margin: 0em .5em .75em .5em;
+					overflow: hidden;
+					text-indent: -9999px;
+					cursor: pointer;
+					-webkit-transform: scale(1);
+					   -moz-transform: scale(1);
+					    -ms-transform: scale(1);
+					     -o-transform: scale(1);
+					        transform: scale(1);
+					}
+					.quero-show div.btn-dia{
+						background: url('../img/btn-quero-show-dia.png') 0em 0em no-repeat;
+						background-size: auto 100%;
+					}
+					.quero-show div.btn-local{
+							background: url('../img/btn-quero-show-local.png') 0em 0em no-repeat;
+							background-size: auto 100%;
+						}
+						.quero-show div.btn-dia:hover,
+						.quero-show div.btn-local:hover{
+							 -webkit-transform: scale(.95);
+								-moz-transform: scale(.95);
+								 -ms-transform: scale(.95);
+								  -o-transform: scale(.95);
+								     transform: scale(.95);
+						}
+				.quero-show div.form-dados{
+					float: left;
+					width: 12em;
+					height: 12em;
+					}
+					.quero-show div.campo01{
+						float: left;
+						width: 12em;
+						min-height: 1em;
+						padding-bottom:.25em;
+						}
+						.quero-show div.campo01 label{
+							float: left;
+							width: 12em;
+							line-height: 1.45em;
+							font-size: .8em;
+							text-transform: uppercase;
+							color: #999;
+						}
+						.quero-show div.campo01 input{
+							float: left;
+							width: 10.75em;
+							height: .75em;
+							padding: .45em .5em;
+							color: #555;
+							background: #F5F5F5;
+							border: 1px solid #999;
+							-webkit-transition: all .25s ease;
+							   -moz-transition: all .25s ease;
+							    -ms-transition: all .25s ease;
+							     -o-transition: all .25s ease;
+							        transition: all .25s ease;
+							}
+							.quero-show div.campo01 input:focus{
+								background: #FFF;
+								border: 1px solid #555;
+								box-shadow: 0em 0em .25em rgba(0, 0, 0, 0.5);
+							}
+							.quero-show div.campo01 input.btn-quero-show{
+								width: 11.85em;
+								height: 2em;
+								padding: 0em 0em;
+								border: 1px solid #A46200;
+								margin-top: .5em;
+								color: #FFF;
+								font-weight: 500;
+								background: #ED8C00;
+								cursor: pointer;
+								}
+								.quero-show div.campo01 input.btn-quero-show:hover{
+									box-shadow: 0em 0em .25em rgba(238, 141, 0, 0.85);
+								}
+
+	.artistas{
+		float: left;
+		width: 58.125em;
+		height: 31.875em;
+		margin: 0em 0.938em;
+		overflow: hidden;
+		position: relative;
+		}
+		.artistas ul{
+			float: left;
+			width: 58.125em;
+			height: 31.875em;
+			}
+			.artistas li,
+			.artista-img,
+			.artista-logo,
+			.artista-data,
+			.artista-contrate{
+				float: left;
+				width: 13.125em;
+			}
+			.artistas li{
+				height: 31.875em;
+				padding: 0em 0.7em 0em 0.7em;
+				-webkit-transition: all .25s ease;
+				   -moz-transition: all .25s ease;
+				    -ms-transition: all .25s ease;
+				     -o-transition: all .25s ease;
+				        transition: all .25s ease;
+				-webkit-transform: scale(1);
+				   -moz-transform: scale(1);
+				    -ms-transform: scale(1);
+				     -o-transform: scale(1);
+				        transform: scale(1);
+				}
+				.artistas li:hover{
+					-webkit-transform: scale(.98);
+					   -moz-transform: scale(.98);
+					    -ms-transform: scale(.98);
+					     -o-transform: scale(.98);
+					        transform: scale(.98);
+				}
+				.artista-img{
+					height: 13.125em;
+					background: #F5F5F5;
+					overflow: hidden;
+					}
+					.artista-img img{
+						width: 100%;
+						height: 100%;
+					}
+				.artista-logo{
+					height: 11.875em;
+					overflow: hidden;
+					}
+					.artista-logo img{
+						width: 100%;
+						height: 100%;
+					}
+				.artista-data{
+					float: left;
+					height: 2.813em;
+					background: #CD7979 url('../img/bg-artista-data.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+					margin-bottom: 1.250em;
+					}
+					.artista-data span{
+						float: left;
+						color: #FFF;
+						width: 7em;
+						height: 2.813em;
+						line-height: 2.813em;
+						font-weight: bold;
+						margin-left: 3em;
+						text-transform: uppercase;
+						overflow: hidden;
+					}
+					.artista-data a.map{
+						float: right;
+						width: 2.813em;
+						height: 2.813em;
+						overflow: hidden;
+						text-indent:-9999px;
+						background: #915656 url('../img/bg-artista-local.png') 0em 0em no-repeat;
+						background-size: auto 100%;
+						}
+						.artista-data a.map:hover{
+							box-shadow: 0em 0em .5em  #915656;
+						}
+				.artista-contrate{
+					height: 2.813em;
+					overflow: hidden;
+					text-indent: -9999px;
+					background: url('../img/btn-contrate.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+					border-radius:.5em;
+					-webkit-transform: scale(1);
+					   -moz-transform: scale(1);
+					    -ms-transform: scale(1);
+					     -o-transform: scale(1);
+					        transform: scale(1);
+					}
+					.artista-contrate:hover{
+						-webkit-transform: scale(.95);
+						   -moz-transform: scale(.95);
+						    -ms-transform: scale(.95);
+						     -o-transform: scale(.95);
+						        transform: scale(.95);
+					}
+
+	/*  Pagian Artista  */
+	.artista-banner,
+	.artista-banner ul,
+	.artista-banner li,
+	.artista-banner img{
+		float: left;
+		width: 100% !important;
+		min-width: 60em;
+	}
+	.artista-banner{
+		height: 27.5em;
+		}
+		.artista-banner ul{
+			height: 27.5em;
+			overflow: hidden;
+			}
+			.artista-banner li{
+				height: 27.5em;
+				}
+				.artista-banner img{
+					height: auto;
+				}
+	.artista{
+		float: left;
+		width: 60em;
+		min-height: 5em;
+		padding-bottom: 1em;
+		}
+		.artista-logo{
+			float: left;
+			width: 185px;
+			height: 185px;
+			overflow: hidden;
+			}
+			.artista-logo img{
+				float: left;
+				width: 100%;
+				height: 100%;
+			}
+		.artista-conteudo{
+			float: right;
+			width: 45em;
+			min-height: 11.563em;
+			}
+			.artista-conteudo p{
+				font-size:1em;
+				line-height: 1.5em;
+				padding-bottom: 1em;
+				color: #666;
+			}
+		.artista-video{
+			float: left;
+			width: 37.5em;
+			height: 14.375em;
+			}
+			.artista-video a{
+				-webkit-transform: scale(1);
+				   -moz-transform: scale(1);
+				    -ms-transform: scale(1);
+				     -o-transform: scale(1);
+				        transform: scale(1);
+				}
+				.artista-video a:hover{
+					-webkit-transform: scale(.95);
+					   -moz-transform: scale(.95);
+					    -ms-transform: scale(.95);
+					     -o-transform: scale(.95);
+					        transform: scale(.95);
+				}
+			.artista-video .video-principal{
+				float: left;
+				width: 22.25em;
+				height: 12.5em;
+				overflow: hidden;
+				}
+				.artista-video .video-principal a{
+					float: left;
+					width: 22.25em;
+					height: 12.5em;
+					text-align: center;
+					}
+					.artista-video .video-principal a img{
+						width: auto;
+						height: 100%;
+					}
+			.artista-video ul{
+				float: right;
+				width: 14.55em;
+				height: 12.5em;
+				overflow: hidden;
+				margin: 0em 0em 0em -1em;
+				}
+				.artista-video li{
+					float: left;
+					margin: 0em 0em .59em 1em;
+					}
+					.artista-video li a{
+						float: left;
+						width: 3.75em;
+						height: 3.75em;
+						overflow: hidden;
+						}
+						.artista-video li a img{
+							float: left;
+							width: 100%;
+							height: 100%;
+						}
+
+
+		.artista-botoes a.btn01,
+		.artista-botoes div.btn02,
+		.artista-botoes div.btn03{
+			float: left;
+			width: 13.125em;
+			height: 2.813em;
+		}
+		.artista-botoes{
+			float: right;
+			width: 13.125em;
+			height: 14.375em;
+			margin-right: 4.375em;
+			}
+			/*  Botão Facebook  */
+			.artista-botoes a.btn01{
+				color: #FFF;
+				background: #2C5E9D url('../img/btn-face-det-banda.png') .35em .55em no-repeat;
+				margin-bottom: 2em;
+				text-indent: 3em;
+				line-height: 2.813em;
+				font-family:'Ubuntu Condensed',sans-serif;
+				font-size: 1em;
+				letter-spacing: .1em;
+				text-transform: uppercase;
+				}
+				.artista-botoes a.btn01:hover{
+					box-shadow: 0em 0em .25em #2C5E9D;
+				}
+			/*    */
+			.artista-botoes div.btn02{
+				background: #FFF;
+				margin-bottom: 2em;
+				}
+				.artista-botoes div.btn02 a{
+					float: left;
+					width: 6.563em;
+					height: 2.813em;
+					overflow: hidden;
+					text-indent: -9999px;
+					background: url('../img/btn-rider-tecnico.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+					-webkit-transform: scale(1);
+					   -moz-transform: scale(1);
+					    -ms-transform: scale(1);
+					     -o-transform: scale(1);
+					        transform: scale(1);
+					}
+					.artista-botoes div.btn02 a:first-child{
+						background: url('../img/btn-release.png') 0em 0em no-repeat;
+						background-size: auto 100%;
+					}
+					.artista-botoes div.btn02 a:hover{
+						-webkit-transform: scale(.95);
+						   -moz-transform: scale(.95);
+						    -ms-transform: scale(.95);
+						     -o-transform: scale(.95);
+						        transform: scale(.95);
+					}
+			/*    */
+			.artista-botoes div.btn03{
+				background: #E87A7B url('../img/bg-artista-data2.png') .5em .25em no-repeat;
+				}
+				.artista-botoes div.btn03 span{
+					float: left;
+					padding-left: 3.1em;
+					width: 7.20em;
+					line-height: 2.75em;
+					color: #FFF;
+					overflow: hidden;
+					font-family: 'Ubuntu Condensed',sans-serif;
+					font-size: 1em;
+				}
+				.artista-botoes div.btn03 a.map{
+					float: right;
+					width: 2.813em;
+					height: 2.813em;
+					overflow: hidden;
+					text-indent: -9999px;
+					background: url('../img/bg-artista-local.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+					}
+					.artista-botoes div.btn03 a.map:hover{
+						box-shadow: 0em 0em .25em #A55556;
+					}
+
+
+
+/*  bares      */
+.l3{
+	background: #FFB200;
+	height: 35.625em;
+	}
+	.l3 header{
+		float: left;
+		width: 60em;
+		height: 3.438em;
+		margin: .45em 0em 1.75em 0em;
+		}
+		.l3 header h3{
+			float: left;
+			width: 24em;
+			height: 3.125em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: url('../img/titulo-bares.png') 0em 0em no-repeat;
+			background-size: auto 100%;
+		}
+		.l3 header a{
+			float: left;
+			width: 8.8em;
+			height: 1.838em;
+			padding: 1.6em 0em 0em 2.5em;
+			background: url('../img/btn-l3-header-vertodos.gif') 0em 1.25em no-repeat;
+			color: #FFF;
+			font-size: 1em;
+			text-transform: uppercase;
+			}
+			.l3 header a:hover{
+				color: #FFF;
+				text-shadow:0em 0em .5em rgba(255,255,255,.85);
+				text-indent: .5em;
+			}
+		.bares{
+			float: left;
+			width: 58.125em;
+			height: 28.125em;
+			margin: 0em 0.938em;
+			overflow: hidden;
+			position: relative;
+			}
+			.bares a.plus{
+				height: 28.125em;
+				background-position: .9em 10em;
+				}
+				.bares a.plus:hover{
+					height: 28.125em;
+					background-position: 1.2em 10.5em;
+				}
+				.bares .plus-sombra{
+					height: 28.125em;
+				}
+
+			.bares ul{
+				float: left;
+				width: 58.125em;
+				height: 28.125em;
+				}
+				.bares li,
+				.bar-img,
+				.bar-logo,
+				.bar-shows{
+					float: left;
+					width: 13.125em;
+				}
+				.bares li{
+					background: #FFF;
+					height: 28.125em;
+					padding: 0em 0.7em 0em 0.7em;
+					-webkit-transition: all .25s ease;
+					   -moz-transition: all .25s ease;
+					    -ms-transition: all .25s ease;
+					     -o-transition: all .25s ease;
+					        transition: all .25s ease;
+					-webkit-transform: scale(1);
+					   -moz-transform: scale(1);
+					    -ms-transform: scale(1);
+					     -o-transform: scale(1);
+					        transform: scale(1);
+					}
+					.bares li:hover{
+						-webkit-transform: scale(.98);
+						   -moz-transform: scale(.98);
+						    -ms-transform: scale(.98);
+						     -o-transform: scale(.98);
+						        transform: scale(.98);
+					}
+					.bar-logo{
+						height: 10.313em;
+						overflow: hidden;
+						}
+						.bar-logo img{
+							width: 100%;
+							height: 100%;
+						}
+					.bar-img{
+						height: 13.125em;
+						background: #F5F5F5;
+						overflow: hidden;
+						margin-bottom: 1.25em;
+						}
+						.bar-img img{
+							width: 100%;
+							height: 100%;
+						}
+					.bar-shows{
+						float: left;
+						height: 2.813em;
+						background: #CD7979 url('../img/bg-artista-data.png') 0em 0em no-repeat;
+						background-size: auto 100%;
+						margin-bottom: 1.250em;
+						}
+						.bar-shows span{
+							float: left;
+							color: #FFF;
+							width: 8em;
+							height: 3.45em;
+							line-height: 3.45em;
+							font-family:'Ubuntu Condensed',sans-serif;
+							font-size: .9em;
+							font-weight: bold;
+							margin-left: 3.1em;
+							text-align: center;
+							text-transform: uppercase;
+							overflow: hidden;
+						}
+						.bar-shows a.maps{
+							float: right;
+							width: 2.813em;
+							height: 2.813em;
+							overflow: hidden;
+							text-indent:-9999px;
+							background: #915656 url('../img/bg-artista-local.png') 0em 0em no-repeat;
+							background-size: auto 100%;
+							}
+							.bar-show a:hover{
+								box-shadow: 0em 0em .5em  #915656;
+							}
+
+/*  Botao Plus  */
+a.plus{
+	position: absolute;
+	right: 0em;
+	top: 0em;
+	width: 7.5em;
+	height: 33.75em;
+	background: rgba(255, 255, 255, 0.8) url('../img/btn-plus.png') .9em 12em no-repeat;
+	background-size: 5.438em auto;
+	overflow: hidden;
+	text-indent: -9999px;
+	z-index: 30;
+	}
+	a.plus:hover{
+		background: rgba(255, 255, 255, 0.95) url('../img/btn-plus.png') 1.2em 12.5em no-repeat;
+		background-size: 5em auto;
+	}
+	.plus-sombra{
+		position: absolute;
+		right: 7.5em;
+		top: 0em;
+		width: 1.188em;
+		height: 33.75em;
+		background: url('../img/btn-plus-sombra.png') right top no-repeat;
+		background-size: auto 100%;
+		z-index: 30;
+	}
+
+/*  contato    */
+.l4{
+	min-height: 25.688em;
+	background: url('../img/logo-rodape.png') right top no-repeat;
+	}
+	.contato,
+	.contato header,
+	.contato header h4,
+	.contato footer{
+		float: left;
+		width: 60em;
+	}
+	.contato{
+		height: 25.688em;
+		padding: 1em 0em;
+		}
+		.contato header{
+			height: 2.5em;
+			margin-bottom: 2.688em;
+			}
+			.contato header h4{
+				height: 2.5em;
+				background: url('../img/titulo-fale-conosco.png') left top no-repeat;
+				background-size: auto 100%;
+				overflow: hidden;
+				text-indent: -9999px;
+			}
+			.form-contato{
+				float: left;
+				width: 45.625em;
+				min-height: 1em;
+				margin-bottom: 1em;
+				}
+				.form-contato div.campo01{
+					float: left;
+					width: 25.625em;
+					margin-bottom: .625em;
+					}
+					.form-contato div.campo01 label{
+						float: left;
+						width: 7.188em;
+						line-height: 2.1em;
+						text-align: right;
+						padding-right:.750em;
+						color: #E06919;
+						text-transform: uppercase;
+					}
+					.form-contato div.campo01 input{
+							float: left;
+							width: 16.4em;
+							height: 0.875em;
+							border: 1px solid #999;
+							padding: .5em;
+							color: #444;
+							background: #F5F5F5;
+							-webkit-transition: all .25s ease;
+							   -moz-transition: all .25s ease;
+							    -ms-transition: all .25s ease;
+							     -o-transition: all .25s ease;
+							        transition: all .25s ease;
+						}
+						.form-contato div.campo01 input.fone{
+							width: 10em;
+						}
+				.form-contato div.campo02{
+					float: right;
+					width: 18.750em;
+					height: 10.1em;
+					}
+					.form-contato div.campo02 label{
+						float: left;
+						line-height: 2.65em;
+						color: #E06919;
+						text-transform: uppercase;
+
+					}
+					.form-contato div.campo02 textarea{
+						width: 17.65em;
+						height: 6.43em;
+						border: 1px solid #999;
+						padding: .5em;
+						color: #444;
+						background: #F5F5F5;
+						resize: none;
+						-webkit-transition: all .25s ease;
+						   -moz-transition: all .25s ease;
+						    -ms-transition: all .25s ease;
+						     -o-transition: all .25s ease;
+						        transition: all .25s ease;
+					}
+					.form-contato div.campo01 input:focus,
+					.form-contato div.campo02 textarea:focus{
+							background: #FFF;
+							border: 1px solid #E06919;
+							box-shadow: 0em 0em .5em #E06919;
+						}
+				.form-contato div.campo03{
+					float: left;
+					width: 45.625em;
+					}
+					.form-contato div.campo03 input{
+						float: right;
+						width: 9em;
+						height: 2em;
+						color: #E06919;
+						background: #D1D1D1;
+						border: 1px solid #999;
+						font-weight: bold;
+						letter-spacing:.1em;
+						cursor: pointer;
+						-webkit-transition: all .25s ease;
+						   -moz-transition: all .25s ease;
+						    -ms-transition: all .25s ease;
+						     -o-transition: all .25s ease;
+						        transition: all .25s ease;
+						}
+						.form-contato div.campo03 input:hover{
+							color: #FFF;
+							background: #E06919;
+							border: 1px solid #E06919;
+							box-shadow: 0em 0em .5em #E06919;
+						}
+	.contato footer{
+		float: left;
+		width: 40em;
+		height: 4em;
+		margin: 1.438em 0em 1em 3.750em;
+		}
+		.contato footer div.fone{
+			float: left;
+			width: 20.438em;
+			height: 4em;
+			background: url('../img/cellphone-rodape.jpg') left .5em no-repeat;
+			padding-left: 3em;
+			}
+			.contato footer div.fone p{
+				font-size: .95em;
+				line-height: 1em;
+				color: #666;
+				font-weight: 300;
+				}
+				.contato footer div.fone p.destaca-fone{
+					font-size: 1.95em;
+					line-height: 1.5em;
+					color: #E06919;
+				}
+				.contato footer div.fone p.destaca-fone small{
+					font-size: .6em;
+				}
+		.contato footer div.face-bottom{
+			float: left;
+			width: 15.313em;
+			height: 4em;
+			}
+			.contato footer div.face-bottom p{
+				font-size: .95em;
+				line-height: 1em;
+				color: #666;
+				font-weight: 300;
+			}
+			.contato footer div.face-bottom a{
+				float: left;
+				font-size: 1.85em;
+				line-height: 1.5em;
+				color: #E06919;
+				padding-left: 1.25em;
+				background: url('../img/btn-fb-rodape.jpg') 0em .25em no-repeat;
+				background-size: auto 70%;
+				}
+				.contato footer div.face-bottom a:hover{
+					text-shadow: 0em 0em .5em #E06919;
+				}
+
+
+/*  Telas Sobrepostas  */
+
+/*  Fundo Escuro  */
+.fundo-escuro{
+	position:fixed;
+	top: 0em;
+	left: 0em;
+	z-index:100;
+	width:100%;
+	height:100%;
+	background:#000;
+	display: none;
+}
+.mostra-janela{
+	opacity: 1;
+}
+.mostra-fundo{
+	opacity:0.85;
+	filter: alpha(opacity=85);
+}
+
+/*  Tela Faça Parte  */
+.faca-parte{
+	position: absolute;
+	left: 50%;
+	top: 1.25em;
+	width: 58em;
+	height: auto;
+	padding: 1em;
+	margin-left: -30em;
+	border-radius: .5em;
+	background: #FFF;
+	z-index: 101;
+	display: none;
+	}
+	.faca-parte header{
+		float: left;
+		width: 58em;
+		height: 2.813em;
+		margin-bottom:2em;
+		}
+		.faca-parte header h3{
+			float: left;
+			width: 12.5em;
+			height: 2.813em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: url('../img/titulo-faca-parte.png') 0em 0em no-repeat;
+			background-size: auto 100%;
+		}
+		.faca-parte header a.btn-modalidades{
+			float: right;
+			width: 13em;
+			height: 2.813em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: #74696F url('../img/btn-modalidades-parceria.png') center .5em no-repeat;
+			margin-right: 8.75em;
+			border-radius: .5em;
+			}
+			.faca-parte header a.btn-modalidades:hover{
+				box-shadow: 0em 0em .25em rgba(0,0,0,.5);
+			}
+		.fecha-janela{
+			float: right;
+			width: 1.563em;
+			height: 1.813em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: url('../img/btn-fechar-janela.png') 0em 0em no-repeat;
+			background-size: auto 100%;
+			cursor: pointer;
+			-webkit-transition: all .25s ease;
+			   -moz-transition: all .25s ease;
+			    -ms-transition: all .25s ease;
+			     -o-transition: all .25s ease;
+			        transition: all .25s ease;
+			-webkit-transform: scale(1);
+			   -moz-transform: scale(1);
+			    -ms-transform: scale(1);
+			     -o-transform: scale(1);
+			        transform: scale(1);
+			}
+			.fecha-janela:hover{
+				-webkit-transform: scale(.95);
+				   -moz-transform: scale(.95);
+				    -ms-transform: scale(.95);
+				     -o-transform: scale(.95);
+				        transform: scale(.95);
+				}
+
+	.content-faca-parte{
+		float: left;
+		width: 26.250em;
+		height: 30.750em;
+		position: relative;
+		}
+		.content-faca-parte p{
+			font-size: 1em;
+			line-height: 1.5em;
+			color: #999;
+			padding: 0em 0em 0.5em 2.75em;
+			text-align: justify;
+		}
+		.logo-faca-parte{
+			position: absolute;
+			left: -.5em;
+			bottom: -17.35em;
+			width: 30.063em;
+			height: 24.25em;
+			background: url('../img/logo-faca-parte.png') 0em 0em no-repeat;
+			background: auto 100%;
+			z-index: 102;
+		}
+	.form-faca-parte{
+		float: right;
+		width: 27em;
+		height: auto;
+		margin-right: 2em;
+		}
+		.form-faca-parte div.campo01{
+			float: left;
+			width: 27em;
+			margin-bottom: .25em;
+			}
+			.form-faca-parte div.campo01 label,
+			.form-faca-parte div.campo02 label{
+				float: left;
+				width: 6.25em;
+				line-height: 2.1em;
+				text-align: right;
+				padding-right:.850em;
+				color: #E06919;
+				text-transform: uppercase;
+			}
+			.form-faca-parte div.campo01 input,
+			.form-faca-parte div.campo02 input{
+				float: left;
+				height: 0.875em;
+				border: 1px solid #999;
+				padding: .5em;
+				color: #444;
+				background: #F5F5F5;
+				-webkit-transition: all .25s ease;
+				   -moz-transition: all .25s ease;
+				    -ms-transition: all .25s ease;
+				     -o-transition: all .25s ease;
+				        transition: all .25s ease;
+				}
+				.form-faca-parte div.campo01 input{
+					width: 17em;
+				}
+                .form-faca-parte div.campo01 select{
+					width: 14.5em;
+                    font-size: 20px;
+				}
+				.form-faca-parte div.campo01 input:focus,
+				.form-faca-parte div.campo02 input:focus{
+					background: #FFF;
+					border: 1px solid #E06919;
+					box-shadow: 0em 0em .5em #E06919;
+				}
+		.form-faca-parte div.campo02{
+			float: left;
+			width: 13.4em;
+			margin-bottom: .25em;
+			}
+			.form-faca-parte div.campo02 label.cpf{
+				width: 2.85em;
+			}
+            .form-faca-parte div.campo02 label.estilo{
+                width: 4.85em;
+            }
+			.form-faca-parte div.campo02 input{
+					width: 5em;
+				}
+				.form-faca-parte div.campo02 input.campo-cpf{
+					width: 7em;
+				}
+		.form-faca-parte div.campo03{
+			float: left;
+			width: 19em;
+			height: 6em;
+			margin: -.5em 0em .25em 7.25em;
+			}
+			.form-faca-parte div.campo03 label{
+				float: left;
+				width: 17em;
+				line-height: 2.1em;
+				text-align: left;
+				padding-right: .85em;
+				color: #E06919;
+				text-transform: uppercase;
+			}
+			.form-faca-parte div.campo03 div{
+				float: left;
+				width: 6.15em;
+				margin: 0em .5em .25em 0em;
+				font-size: .85em;
+				color: #666;
+			}
+			.form-faca-parte div.campo03 p{
+				float: left;
+				font-size: .675em;
+				line-height: 3em;
+				color: #666;
+			}
+			.form-faca-parte div.campo03 input[type="checkbox"]{
+				margin: 0em .85em 0em 0em;
+			}
+			.form-faca-parte div.campo03 input.btn-enviar-2{
+				float: left;
+				width: 17.75em;
+				height: 3.375em;
+				border: 1px solid #834801;
+				background: #F98901;
+				color: #FFF;
+				font-size: 1em;
+				font-weight: bold;
+				cursor: pointer;
+				margin-top: -1.25em;
+				-webkit-transition: all .25s ease;
+				   -moz-transition: all .25s ease;
+				    -ms-transition: all .25s ease;
+				     -o-transition: all .25s ease;
+				        transition: all .25s ease;
+				}
+				.form-faca-parte div.campo03 input.btn-enviar-2:hover{
+					box-shadow: 0em 0em .5em #F98901;
+				}
+
+
+/*  Tela Detalhe Banda  */
+.banda-detalhe{
+	position: absolute;
+	left: 50%;
+	top: 1.25em;
+	width: 60em;
+	height: 58.125em;
+	margin-left: -30em;
+	border-radius: .5em;
+	background: #FFF;
+	z-index: 101;
+	display: none;
+	}
+	.banda-detalhe header{
+		float: left;
+		width: 58em;
+		height: 3.625em;
+		padding: 1em;
+		background: #F98901;
+		background-size: 0em 0em;
+		border-bottom: 15px solid #9A8F95;
+		border-radius: .5em .5em 0em 0em;
+		position: relative;
+		}
+		.banda-detalhe header h3{
+			float: left;
+			width: 13em;
+			line-height: 1.25em;
+			color: #FFF;
+			background: url('../img/bg-titulo-banda-detalhe.gif') 0em .205em no-repeat;
+			font-family: 'Ubuntu Condensed', sans-serif;
+			font-size: 2.8em;
+			padding-left: 1em;
+		}
+		.banda-detalhe div.fecha-janela{
+			background: url('../img/btn-fechar-janela2.png') 0em 0em no-repeat;
+			margin-top: 1em;
+		}
+		.banda-detalhe header div.btn-contrate-banda{
+			position: absolute;
+			top: 1.35em;
+			right: -4em;
+			width: 13em;
+			height: 2.813em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: #E3E3E3 url('../img/btn-contrate2.png') center .75em no-repeat;
+			margin-right: 8.75em;
+			border-radius: .5em;
+			cursor: pointer;
+			z-index: 70;
+			-webkit-transition: all .25s ease;
+			   -moz-transition: all .25s ease;
+			    -ms-transition: all .25s ease;
+			     -o-transition: all .25s ease;
+			        transition: all .25s ease;
+			}
+			.banda-detalhe header div.btn-contrate-banda:hover{
+				box-shadow: 0em 0em .5em rgba(0, 0, 0, 0.5);
+			}
+			.quero-show{
+				position: absolute;
+				top: 3.25em;
+				right: 4.75em;
+				width: 12em;
+				height: 18em;
+				padding: 1.5em .5em 1em;
+				background: #FFF;
+				z-index: 60;
+				border-radius: .5em;
+				display: none;
+				}
+				.quero-show div.btn-dia,
+				.quero-show div.btn-local{
+					float: left;
+					width: 5em;
+					height: 2.5em;
+					margin: 0em .5em .75em .5em;
+					overflow: hidden;
+					text-indent: -9999px;
+					cursor: pointer;
+					-webkit-transform: scale(1);
+					   -moz-transform: scale(1);
+					    -ms-transform: scale(1);
+					     -o-transform: scale(1);
+					        transform: scale(1);
+					}
+					.quero-show div.btn-dia{
+						background: url('../img/btn-quero-show-dia.png') 0em 0em no-repeat;
+						background-size: auto 100%;
+					}
+					.quero-show div.btn-local{
+							background: url('../img/btn-quero-show-local.png') 0em 0em no-repeat;
+							background-size: auto 100%;
+						}
+						.quero-show div.btn-dia:hover,
+						.quero-show div.btn-local:hover{
+							 -webkit-transform: scale(.95);
+								-moz-transform: scale(.95);
+								 -ms-transform: scale(.95);
+								  -o-transform: scale(.95);
+								     transform: scale(.95);
+						}
+				.quero-show div.form-dados{
+					float: left;
+					width: 12em;
+					height: 12em;
+					}
+					.quero-show div.campo01{
+						float: left;
+						width: 12em;
+						min-height: 1em;
+						padding-bottom:.25em;
+						}
+						.quero-show div.campo01 label{
+							float: left;
+							width: 12em;
+							line-height: 1.45em;
+							font-size: .8em;
+							text-transform: uppercase;
+							color: #999;
+						}
+						.quero-show div.campo01 input{
+							float: left;
+							width: 10.75em;
+							height: .75em;
+							padding: .45em .5em;
+							color: #555;
+							background: #F5F5F5;
+							border: 1px solid #999;
+							-webkit-transition: all .25s ease;
+							   -moz-transition: all .25s ease;
+							    -ms-transition: all .25s ease;
+							     -o-transition: all .25s ease;
+							        transition: all .25s ease;
+							}
+							.quero-show div.campo01 input:focus{
+								background: #FFF;
+								border: 1px solid #555;
+								box-shadow: 0em 0em .25em rgba(0, 0, 0, 0.5);
+							}
+							.quero-show div.campo01 input.btn-quero-show{
+								width: 11.85em;
+								height: 2em;
+								padding: 0em 0em;
+								border: 1px solid #A46200;
+								margin-top: .5em;
+								color: #FFF;
+								font-weight: 500;
+								background: #ED8C00;
+								cursor: pointer;
+								}
+								.quero-show div.campo01 input.btn-quero-show:hover{
+									box-shadow: 0em 0em .25em rgba(238, 141, 0, 0.85);
+								}
+
+
+	/**/
+	.banda-foto{
+		float: left;
+		width: 60em;
+		height: 18.75em;
+		background: #8A7F85;
+		overflow: hidden;
+		margin-bottom: 1em;
+		}
+		.banda-foto img{
+			float: left;
+			width: 100%;
+			height: auto;
+		}
+	/**/
+	.banda-conteudo{
+		float: left;
+		width: 58em;
+		min-height: 13em;
+		padding: 0em 1em;
+		}
+		/**/
+		.banda-logo{
+			float: left;
+			width: 11.563em;
+			height: 11.563em;
+			overflow: hidden;
+			}
+			.banda-logo img{
+				float: left;
+				width: 100%;
+				height: 100%;
+			}
+		/**/
+		.banda-texto{
+			float: right;
+			width: 45em;
+			height: 11.563em;
+			}
+			.banda-texto p{
+				font-size:1em;
+				line-height: 1.5em;
+				padding-bottom: 1em;
+				color: #666;
+			}
+		/**/
+		.banda-video{
+			float: left;
+			width: 37.5em;
+			height: 14.375em;
+			background: #F5F5F5;
+		}
+		/**/
+		.banda-botoes a.btn01,
+		.banda-botoes div.btn02,
+		.banda-botoes div.btn03{
+			float: left;
+			width: 13.125em;
+			height: 2.813em;
+		}
+		.banda-botoes{
+			float: right;
+			width: 13.125em;
+			height: 14.375em;
+			margin-right: 4.375em;
+			}
+			/*  Botão Facebook  */
+			.banda-botoes a.btn01{
+				color: #FFF;
+				background: #2C5E9D url('../img/btn-face-det-banda.png') .35em .55em no-repeat;
+				margin-bottom: 3em;
+				text-indent: 3em;
+				line-height: 2.813em;
+				font-family:'Ubuntu Condensed',sans-serif;
+				font-size: 1em;
+				letter-spacing: .1em;
+				text-transform: uppercase;
+				}
+				.banda-botoes a.btn01:hover{
+					box-shadow: 0em 0em .25em #2C5E9D;
+				}
+			/*    */
+			.banda-botoes div.btn02{
+				background: #FFF;
+				margin-bottom: 3em;
+				}
+				.banda-botoes div.btn02 a{
+					float: left;
+					width: 6.563em;
+					height: 2.813em;
+					overflow: hidden;
+					text-indent: -9999px;
+					background: url('../img/btn-rider-tecnico.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+					-webkit-transform: scale(1);
+					   -moz-transform: scale(1);
+					    -ms-transform: scale(1);
+					     -o-transform: scale(1);
+					        transform: scale(1);
+					}
+					.banda-botoes div.btn02 a:first-child{
+						background: url('../img/btn-release.png') 0em 0em no-repeat;
+						background-size: auto 100%;
+					}
+					.banda-botoes div.btn02 a:hover{
+						-webkit-transform: scale(.95);
+						   -moz-transform: scale(.95);
+						    -ms-transform: scale(.95);
+						     -o-transform: scale(.95);
+						        transform: scale(.95);
+					}
+			/*    */
+			.banda-botoes div.btn03{
+				background: #E87A7B url('../img/bg-artista-data2.png') .5em .25em no-repeat;
+				}
+				.banda-botoes div.btn03 span{
+					float: left;
+					padding-left: 3.1em;
+					width: 7.20em;
+					line-height: 2.75em;
+					color: #FFF;
+					overflow: hidden;
+					font-family: 'Ubuntu Condensed',sans-serif;
+					font-size: 1em;
+				}
+				.banda-botoes div.btn03 a{
+					float: right;
+					width: 2.813em;
+					height: 2.813em;
+					overflow: hidden;
+					text-indent: -9999px;
+					background: url('../img/bg-artista-local.png') 0em 0em no-repeat;
+					background-size: auto 100%;
+					}
+					.banda-botoes div.btn03 a:hover{
+						box-shadow: 0em 0em .25em #A55556;
+					}
+
+
+
+
+/*  inferior a 1130px  */
+@media only screen and (max-width: 1130px) {
+   .logo-topo{
+		left: -6.6em;
+	}
+}
+
+
+/*  inferior a 940px  */
+@media only screen and (max-width: 940px) {
+   body{
+		font-size:14px;
+   }
+	   	.menu-topo li a{
+	   		height: 5.5em;
+	   	}
+	   	.menu-interno li a{
+	   		height: 4.375em;
+	   	}
+
+	.l4{
+		background-size: auto 20em;
+	}
+
+	.banda-botoes div.btn02 a{
+		width: 6.35em;
+	}
+}

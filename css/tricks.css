@@ -1,0 +1,348 @@
+.artistas ul {
+    width: 158.125em;
+}
+.bares ul {
+    width: 158.125em;
+}
+a.plus {
+    top:90px;
+    right: 1em;
+    height: 27.75em;
+}
+div.exibe-agenda a.plus {
+    top:0px;
+    right:0px;
+}
+div.exibe-agenda-hidden ul {
+    width:158.125em;
+    height: 28.125em;
+    float: left;
+}
+.plus-sombra {
+    top: 90px;
+    right: 8.5em;
+    height: 27.75em;
+}
+/* header {
+    min-height: 4.375em;
+} */
+header.regiao > img {
+    float:left;
+    margin:10px 0.938em;
+}
+header.regiao > h2 {
+    float:left;
+    color:#b0afb4;
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed';
+    font-size: 43px;
+}
+header.artistas > img {
+    float:left;
+    margin:10px 0.938em;
+}
+header.artistas > h2 {
+    float:left;
+    color:#b0afb4;
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed';
+    font-size: 43px;
+    background: none;
+    text-indent: inherit;
+}
+
+header.local > img {
+    float:left;
+}
+header.local > h2 {
+    float:left;
+    color:#b0afb4;
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed';
+    font-size: 43px;
+    background: none;
+    text-indent: inherit;
+}
+header.local > h4 {
+    float:left;
+    color:#E06919;
+    padding: 28px 16px;
+}
+.casas {
+    float: left;
+    width: 60em;
+    min-height: 17em;
+    padding-bottom: 1em;
+}
+.casas p {
+    padding-bottom: 1em;
+}
+.local-conteudo{
+	float: left;
+	width: 60%;
+	min-height: 11.563em;
+}
+.local-mapa{
+	float: right;
+	width: 40%;
+	height: 11.563em;
+}
+.local-conteudo .artista-botoes {
+    width: 100px;
+    height: inherit;
+}
+.local-endereco {
+    font-family: 'sans-serif';
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 10px;
+    text-align:right;
+}
+
+.banner-secundario{
+	height: 27.5em;
+	position: relative;
+	}
+	.banner-secundario ul{
+		height: 27.5em;
+		}
+		.banner-secundario li{
+			height: 27.5em !important;
+			position:relative;
+			}
+			/*  Onde a magia acontece  */
+			.banner-secundario .tarja-laranja{
+				position: absolute;
+				left: 0em;
+				bottom: 0em;
+				width: 100%;
+				height: 1.875em;
+				background: #D78B13;
+			}
+			.banner-secundario .logo-banda{
+				position: absolute;
+				left: .5em;
+				top: -10.50em;
+				width: 10em;
+				height: 10em;
+				padding: 0.625em;
+				background: rgba(255,255,255,.85);
+				border-radius: .5em;
+				z-index:1;
+				}
+				.banner-secundario .logo-banda img{
+					width: 100%;
+					height: 100%;
+				}
+			.banner-secundario .foto-banda{
+				height: 25.625em !important;
+				overflow: hidden;
+				}
+				.banner-secundario .foto-banda img{
+					float: left;
+					width: 100%;
+					height: auto;
+					min-height: 25.625em;
+				}
+
+.filtro {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #b0afb4;
+    line-height: 30px;
+}
+.filtro span {
+    padding: 4px 10px;
+}
+.filtro button{
+    background-image: url('../img/btn-search.png');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    text-indent: -400px;
+    overflow: hidden;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-position-y: 4px;
+}
+.orange {
+    color: #E06919;
+}
+
+/* Contact form tricks */
+div.wpcf7-mail-sent-ng {
+    border:none;
+    float: left;
+    color: red;
+    background-color: blanchedalmond;
+    padding: 21px;
+}
+div.wpcf7-mail-sent-ok {
+    border:none;
+    float: left;
+    color: #398f14;
+    background-color: blanchedalmond;
+    padding: 21px;
+}
+div.wpcf7-validation-errors {
+    border:none;
+    float: left;
+    color: #E06919;
+    background-color: blanchedalmond;
+    padding: 21px;
+}
+form.form-faca-parte span.wpcf7-not-valid-tip {
+    margin-left: 26%;
+}
+span.wpcf7-not-valid-tip {
+    display: block;
+    clear: both;
+    margin-left: 31%;
+}
+
+div.evento .imagem-evento img {
+    max-width: 960px;
+    max-height: 300px;
+}
+div.evento .header-evento{
+    margin-top: 20px;
+}
+div.evento .header-evento .data {
+    float: left;
+    width: 170px;
+    height: 180px;
+    background-color: #f68c2c;
+    color:white;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+div.evento .header-evento .data img {
+    float:left;
+    margin-left: 45px;
+    margin-top: 6px;
+}
+div.evento .header-evento .data .hora {
+    font-size: 30px;
+    font-family: 'Ubuntu Condensed';
+    font-weight: 900;
+    float:left;
+    margin-top: 15px;
+}
+div.evento .header-evento .data .dia {
+    font-size: 70px;
+    font-family: 'Ubuntu Condensed',sans-serif;
+    font-weight: 900;
+    float:left;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+div.evento .header-evento .data .semana {
+    font-size: 25px;
+    font-family: 'Ubuntu Condensed',sans-serif;
+    font-weight: 900;
+    float:left;
+    margin-top: -10px;
+    margin-left: 25px;
+}
+div.evento .header-evento .detalhes {
+    width: 100%;
+}
+div.evento .header-evento .detalhes h1 {
+    color: #b0afb4;
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed';
+    font-size: 30px;
+}
+div.evento .header-evento .detalhes h2 {
+    color: #f68c2c;
+    font-weight: 400;
+}
+div.evento .header-evento .detalhes .mapa {
+    float:left;
+    width:780px;
+    height:74px;
+}
+div.evento .header-evento .detalhes .botoes{
+    margin-top: 6px;
+    float:left;
+    width:780px;
+}
+div.evento .header-evento .detalhes .botoes a.participe{
+    background-position: center;
+    background-color: #f68c2c;
+    background-image: url('../img/btn-participar.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 160px;
+    height: 45px;
+    overflow: hidden;
+    text-indent: -100px;
+    float:left;
+    margin-left: 10px;
+}
+div.evento .header-evento .detalhes .botoes a.facebook{
+    background-position: center;
+    background-color: #215e99;
+    background-image: url('../img/btn-oficial.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 115px;
+    height: 45px;
+    overflow: hidden;
+    text-indent: -100px;
+    float:left;
+}
+div.evento .header-evento .imagem-evento img{
+    margin-top: 10px;
+}
+div.evento .conteudo-evento {
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.modal-parceria {
+    display:none;
+    position: absolute;
+    left: 50%;
+    top: 1.25em;
+    height: auto;
+    padding: 1em;
+    margin-left: -30em;
+    border-radius: .5em;
+    background: #FFF;
+    z-index: 150;
+}
+.modal-parceria img {
+    max-width: 930px;
+}
+.fecha-parceria {
+    float: right;
+    width: 1.563em;
+    height: 1.813em;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url('../img/btn-fechar-janela.png') 0em 0em no-repeat;
+    background-size: auto 100%;
+    cursor: pointer;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+    -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+    }
+.fecha-parceria:hover{
+    -webkit-transform: scale(.95);
+       -moz-transform: scale(.95);
+        -ms-transform: scale(.95);
+         -o-transform: scale(.95);
+            transform: scale(.95);
+}

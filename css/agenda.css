@@ -1,0 +1,212 @@
+.agenda{
+	background: #4E4E4E;
+	height: 49em;
+	}
+	.agenda header{
+		background: none;
+		margin-top: 1em;
+		}
+		.agenda header h4{
+			float: left;
+			width: 12.2em;
+			height: 3.125em;
+			overflow: hidden;
+			text-indent: -9999px;
+			background: url('../img/titulo-agenda.png') 0em 0em no-repeat;
+			background-size: auto 100%;
+		}
+	.exibe-agenda{
+		float: left;
+		width: 60em;
+		height: 40.313em;
+		background: #333;
+		overflow: hidden;
+		position: relative;
+		}
+		.exibe-agenda a.plus{
+				height: 40.313em;
+				background-position: .9em 16em;
+				cursor: pointer;
+				}
+				.exibe-agenda a.plus:hover{
+					height: 40.313em;
+					background-position: 1.2em 16.5em;
+				}
+				.exibe-agenda .plus-sombra{
+					height: 40.313em;
+				}
+			.exibe-agenda-hidden{
+				float: left;
+				width:1000em;
+				height: 40.313em;
+			}
+			.mes-a,
+			.mes-b{
+				float: left;
+				min-width: 15em;
+				height: 40.313em;
+				}
+				.mes-a{
+					background: #9A9098;
+					}
+					.mes-a .dia-b{
+						background: #AD9DA7;
+					}
+				.mes-b{
+					background: #6B5A64;
+					}
+					.mes-b .dia-b{
+						background: #554A50;
+					}
+					.nome-mes{
+						line-height: 3.625em;
+						padding: 1em 0em;
+						}
+						.mes-a .nome-mes{
+							background: url('../img/agenda-titulo-mes-a.png') 0em 0em;
+							background-size: 30em 5.625em;
+							background-repeat: repeat-x;
+						}
+						.mes-b .nome-mes{
+							background: url('../img/agenda-titulo-mes-b.png') 0em 0em;
+							background-size: 30em 5.625em;
+							background-repeat: repeat-x;
+						}
+						.nome-mes p{
+							font-weight: bold;
+							font-family: 'Ubuntu Condensed', sans-serif;
+							text-indent: 10px;
+							font-size: 2.25em;
+							color: #5E5E5E;
+							text-transform: uppercase;
+						}
+					.dia-a,
+					.dia-b,
+					.data-mes,
+					.data-dia,
+					.data-semana,
+					.agenda-detalhe{
+						float: left;
+						width: 15em;
+					}
+					.dia-a,
+					.dia-b{
+						height: 34.688em;
+						}
+						.data-mes{
+							height: 11em;
+							}
+							.data-dia,
+							.data-semana{
+								text-align: center;
+								text-transform: uppercase;
+								color: #EBEBEB;
+								font-weight: bold;
+								text-shadow: 0em .17em .0em #333;
+							}
+							.data-dia{
+								height: 7.188em;
+								}
+								.data-dia p{
+									font-family: 'Ubuntu',sans-serif;
+									line-height: 1.35em;
+									font-size: 7em;
+									letter-spacing: -.075em;
+								}
+
+							.data-semana{
+								height: 3.437em;
+								}
+								.data-semana p{
+									font-family: 'Ubuntu Condensed',sans-serif;
+									line-height: 2.5em;
+									font-size: 1.5em;	/*2.625*/
+								}
+						.agenda-detalhe{
+							height: 24em;
+							overflow: hidden;
+							position: relative;
+							}
+							.agenda-detalhe li{
+								width: 15em;
+								height: 5.625em;
+								margin-bottom: .25em;
+								overflow: hidden;
+								}
+								.agenda-detalhe li a{
+									float: right;
+									width: 3em;
+									height: 5.625em;
+									overflow: hidden;
+									text-indent: -9999px;
+									background: #CCC2CA url('../img/plus-agenda-p.gif') center 2em no-repeat;
+									}
+									.agenda-detalhe li a:hover{
+										background: #FFF  url('../img/plus-agenda-p.gif') center 2em no-repeat;
+										box-shadow: 0em 0em 1em rgba(0,0,0,.75);
+									}
+							.agrupa-detalhe{
+									float: left;
+									width: 12em;
+									height: 5.625em;
+								}
+								.agrupa-detalhe span{
+									float: left;
+									width: 3.750em;
+									padding: 1em .5em 1em .5em;
+									}
+									.agrupa-detalhe span img{
+										width: 3.750em;
+										height: 3.750em;
+									}
+									.agrupa-detalhe p{
+										font-family: 'Ubuntu Condensed',sans-serif;
+									}
+								.agrupa-detalhe .nome-banda{
+									float: left;
+									width: 7.250em;
+									height: 3em;
+									padding: .75em 0em .25em 0em;
+									overflow: hidden;
+									}
+									.agrupa-detalhe .nome-banda p{
+										font-size: 1.15em;
+										line-height: 1.5em;
+										color: #633738;
+										font-weight: bold;
+									}
+								.agrupa-detalhe .hora-show{
+									float: left;
+									width: 2.25em;
+									padding-left: 1em;
+									text-align: center;
+									border-right:1px solid #444;
+									}
+									.agrupa-detalhe .hora-show p{
+										font-size: .95em;
+										line-height: 1.5em;
+										color: #333;
+									}
+								.agrupa-detalhe .valor-show{
+									float: left;
+									width: 3.85em;
+									text-align: center;
+									}
+									.agrupa-detalhe .valor-show p{
+										font-size: .95em;
+										line-height: 1.5em;
+										color: #333;
+									}
+
+						.mes-a .dia-a .agenda-detalhe li{
+							background: #A59BA3 url('../img/drink-icon.png') 4.5em 2.9em no-repeat;
+						}
+						.mes-a .dia-b .agenda-detalhe li{
+							background: #B5A8AF url('../img/drink-icon.png') 4.5em 2.9em no-repeat;
+						}
+						.mes-b .dia-a .agenda-detalhe li{
+							background: #7B6B75 url('../img/drink-icon.png') 4.5em 2.9em no-repeat;
+						}
+						.mes-b .dia-b .agenda-detalhe li{
+							background: #675E63 url('../img/drink-icon.png') 4.5em 2.9em no-repeat;
+						}
